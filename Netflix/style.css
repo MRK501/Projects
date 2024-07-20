@@ -103,8 +103,8 @@ nav img {
   font-weight: 400;
 }
 #email {
-  padding: 16px 130px 15px 14px;
-  font-size: 13px;
+  padding: 16px 120px 15px 14px;
+  font-size: 12px;
   border-radius: 4px;
   font-weight: 900;
   background-color: rgba(23, 23, 23, 0.6);
@@ -124,9 +124,10 @@ nav img {
   margin: auto;
   color: white;
   align-items: center;
+  height: 470px;
 }
 .secImg img{
-  width: 35vw;
+  width: 430px;
   position: relative;
   z-index: 10;
   /*top:45px;*/
@@ -136,10 +137,10 @@ nav img {
 }
 .secImg video{
   position: absolute;
-  top:10px;
+  top:30px;
   margin-top: 50px;
   right: 0;
-  width: 31vw;
+  width: 390px;
 }
 section.first > div{
   display: flex;
@@ -148,6 +149,7 @@ section.first > div{
 section.first > div :nth-child(1){
   font-size: 48px;
   font-weight: bolder;
+  padding: 34px 0;
 }
 
 section.first > div :nth-child(2){
@@ -201,3 +203,4 @@ footer{
 footer .questions{
   padding: 10px 0;
 }
+
